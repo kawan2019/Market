@@ -1,0 +1,34 @@
+[debug] [2021-01-19T09:28:44.375Z] ----------------------------------------------------------------------
+[debug] [2021-01-19T09:28:44.376Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2021-01-19T09:28:44.377Z] CLI Version:   9.2.1
+[debug] [2021-01-19T09:28:44.377Z] Platform:      darwin
+[debug] [2021-01-19T09:28:44.377Z] Node Version:  v12.18.3
+[debug] [2021-01-19T09:28:44.377Z] Time:          Tue Jan 19 2021 12:28:44 GMT+0300 (Arabian Standard Time)
+[debug] [2021-01-19T09:28:44.377Z] ----------------------------------------------------------------------
+[debug] [2021-01-19T09:28:44.378Z] 
+[debug] [2021-01-19T09:28:44.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-19T09:28:44.382Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/kawan/pharma
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2021-01-19T09:28:55.216Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:75:28)
+    at Interface._setRawMode (readline.js:290:16)
+    at Interface.close (readline.js:413:10)
+    at ReadStream.ontermend (readline.js:201:10)
+    at ReadStream.emit (events.js:327:22)
+    at ReadStream.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1220:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
