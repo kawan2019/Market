@@ -11,7 +11,7 @@
 <img width="720" src="https://firebasestorage.googleapis.com/v0/b/kawan-2021.appspot.com/o/Screen%20Shot%202021-01-19%20at%203.36.09%20PM.png?alt=media&token=2929eeaf-84a1-4c32-a118-e135b9b99337">
 
 <center>
-<h1> All File May be Change Soon..</h1>
+<h1> All File And Views May be Change Soon..</h1>
 </center>
 </body>
 
