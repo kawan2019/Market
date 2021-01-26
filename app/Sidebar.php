@@ -4,8 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class sidebar extends Model
+class Sidebar extends Model
 {
-    protected $table = "sidebar";
+    protected $table = 'sidebar';
     
 }

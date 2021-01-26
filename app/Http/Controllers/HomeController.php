@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\sidebar;
+use App\Sidebar;
 
 class HomeController extends Controller{
 
@@ -11,7 +11,7 @@ class HomeController extends Controller{
         $this->middleware('auth');
     }
     public function sidebar(){
-        return sidebar::all();
+        return Sidebar::all();
     }
 
     public function index(){
