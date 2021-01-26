@@ -4,13 +4,3 @@
 .radius-10{
     border-radius: 10px !important;
 }
-body{
-    background: #888888;
-    background-color: red !important
-}
-.question-template {
-    width: auto;
-    height: auto;
-    background-color: blue;
-    overflow:auto;
-}

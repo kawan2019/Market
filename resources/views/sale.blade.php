@@ -1,5 +1,5 @@
 @extends('layout.nav')
 @section('content')
 
-helo wordwrap
+{{dd($sidebar)}}
 @endsection
