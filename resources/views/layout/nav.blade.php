@@ -25,7 +25,7 @@
                   @endforeach
                     <form action="logout" method="POST">
                         @csrf
-                        <button class="btn-azure-secondaryf btn rounded-0 mt-2 w-100" >
+                        <button class=" btn rounded-0 mt-2 w-100" >
                             <i class="ion-log-out ml-5" style="position: absolute; left:0; "></i>
                             logout
                         </button>
