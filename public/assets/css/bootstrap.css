@@ -2747,7 +2747,7 @@ fieldset:disabled a.btn {
 .btn-azure-secondary{
   background-color: #d8d8d8;
 }
-.btn-azure-secondaryf:nth-child(1){
+.btn-azure-secondaryf:nth-child(8){
   background-color:#edebe9;
 }
 
@@ -3140,6 +3140,15 @@ fieldset:disabled a.btn {
 .btn-outline-primary {
   color: #5e72e4;
   border-color: #5e72e4;
+}
+.btn-outline-aure {
+  color: #0165b6;
+  border-color: #0165b6;
+}
+.btn-outline-aure:hover {
+  color: #fff;
+  background-color: #0165b6;
+  border-color: #0165b6;
 }
 
 .btn-outline-primary:hover {
