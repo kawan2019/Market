@@ -3,7 +3,7 @@
 @section('content')
 <div class="container mt-5 ">
     <div class="row justify-content-center">
-        <div class="col-md-8 w-50">
+        <div class="col-md-8">
             <div class="card rounded-0">
                 <div class="card-body text-center">
                     <img src="{{asset('/assets/img/drug.svg')}}" width="90" class="mt-2 mb-4">

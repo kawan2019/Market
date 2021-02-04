@@ -1,5 +1,6 @@
 @extends('layout.nav')
 @section('content')
+<div class="container">
 <br>
 @if ($errors->any())
         @foreach ($errors->all() as $error)
@@ -39,10 +40,11 @@
 <hr>
     <div class="row justify-content-center">
         @foreach ($supplier as $sup)
-        <div class="card text-center rounded-0 m-2" style="width: 15rem;">
-            <i class="ion-android-bus" style="font-size: 100px;color:#0165b6;"></i>
-            <div class="card-body table-responsive"  >
-                <table class="table table-striped table-sm ml--3" style="width: 14rem !important" >
+        <div class="card text-center rounded-0 m-1" style="max-width: 12rem;">
+            <i class="ion-android-bus" style="font-size: 350%;color:#0165b6;"></i>
+            <div class="card-body">
+                <div class="table-responsive ml--3" style="width: 125%">
+                <table class="table table-striped table-sm" >
                     <tbody>
                       <tr>
                         <td>Name:</td><td >{{$sup->company_name}}</td>
@@ -58,6 +60,7 @@
                       </tr>
                     </tbody>
                   </table>
+                </div>
                   <br>
               <span class="btn btn-azure-secondary btn-sm rounded-0 text-primary" data-toggle="modal" data-target="#edit{{$sup->id}}">Edit</span>
               <span class="btn btn-azure-secondary btn-sm rounded-0 text-danger" data-toggle="modal" data-target="#delete{{$sup->id}}">Delete</span>  
@@ -85,19 +88,19 @@
                                 @csrf
                                 <div class="row justify-content-center">
                                     <div class="col text-center col-12 mt-3">
-                                        <label class=" text-white">Name Supplier</label>
+                                        <label class=" text-darker">Name Supplier</label>
                                         <input name="name" type="text"placeholder="Name Supplier" value="{{$sup->company_name}}" class=" form-control rounded-0 border-azure ">
                                     </div>
                                         <div class="col text-center col-12 mt-3">
-                                            <label class=" text-white">Email Supplier</label>
+                                            <label class="text-darker">Email Supplier</label>
                                             <input name="email" type="email"placeholder="Email Supplier" value="{{$sup->email}}" class="form-control rounded-0 border-azure ">
                                         </div>
                                             <div class="col text-center col-12 mt-3">
-                                                <label class=" text-white">Address Supplier</label>
+                                                <label class="text-darker">Address Supplier</label>
                                                 <input name="address" type="text"placeholder="Address Supplier" value="{{$sup->address}}" class=" form-control rounded-0 border-azure ">
                                             </div>
                                             <div class="col text-center col-12 mt-3">
-                                                <label class=" text-white">Phone Number Supplier</label>
+                                                <label class="text-darker">Phone Number Supplier</label>
                                                 <input name="phonenumber" type="text"placeholder="Phone Number Supplier" value="{{$sup->phonenumber}}" class=" form-control rounded-0 border-azure ">
                                             </div>
                                                 
@@ -109,7 +112,13 @@
                     </div>
                 </div>
             </div>
+            
           </div>
           @endforeach
     </div>
+<div class="d-flex justify-content-center mt-4">
+    {{$supplier->links('pagination::simple-tailwind')}};
+</div>
+</div>
+
 @endsection

@@ -2745,7 +2745,7 @@ fieldset:disabled a.btn {
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 .btn-azure-secondary{
-  background-color: #edebe9;
+  background-color: #d8d8d8;
 }
 .btn-azure-secondaryf:nth-child(1){
   background-color:#edebe9;
@@ -5455,7 +5455,7 @@ input[type="button"].btn-block {
   display: flex;
   padding-left: 0;
   list-style: none;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 
 .page-link {
@@ -8744,6 +8744,12 @@ button.bg-darker:focus {
 
 .w-25 {
   width: 25% !important;
+}
+.w-15 {
+  width: 20% !important;
+}
+.w-90 {
+  width: 90% !important;
 }
 
 .w-50 {
@@ -23099,6 +23105,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   .ct-example .pos-f-t {
     margin: -1.5rem;
   }
+  
 }
 
 .ct-example .custom-file-input:lang(es)~.custom-file-label::after {
