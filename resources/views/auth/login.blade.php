@@ -3,11 +3,10 @@
 @section('content')
 <div class="container mt-5 ">
     <div class="row justify-content-center">
-        <div class="col-md-8 w-50">
-            <div class="card" style="border-radius: 20px !important;">
-
+        <div class="col-md-8">
+            <div class="card rounded-0">
                 <div class="card-body text-center">
-                    <img src="{{asset('/assets/img/drug.svg')}}" width="150" class="m-3">
+                    <img src="{{asset('/assets/img/drug.svg')}}" width="90" class="mt-2 mb-4">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -15,7 +14,7 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                <input id="email" type="email" class="form-control rounded-0 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -29,7 +28,7 @@
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                <input id="password" type="password" class="form-control rounded-0  @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -39,19 +38,12 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                      
-                            
-                            </div>
-                        </div>
-
-                        <div class="form-group row mt-5">
-                            <div class="col-md-6 offset-md-4 ">
-                                <button type="submit" class="btn btn-secondary w-75">
+                        <div class="form-group row align-content-center justify-content-center">
+                            <div class="col-md-9 ">
+                                <button type="submit" style="background-color:#0165b6;" class=" text-white btn rounded-0 mt-3 w-100 form-control">
                                     {{ __('Login') }}
                                 </button>
-
+                            
                             </div>
                         </div>
                     </form>

@@ -2737,11 +2737,18 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0 rgba(212, 214, 216, 0.5);
 }
 
+
 .btn-success {
   color: #fff;
   background-color: #2dce89;
   border-color: #2dce89;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.btn-azure-secondary{
+  background-color: #d8d8d8;
+}
+.btn-azure-secondaryf:nth-child(1){
+  background-color:#edebe9;
 }
 
 .btn-success:hover {
@@ -2768,6 +2775,9 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #24a46d;
   border-color: #229a66;
+}
+.tg-azure{
+  content: ">>";
 }
 
 .btn-success:not(:disabled):not(.disabled):active:focus,
@@ -5445,7 +5455,7 @@ input[type="button"].btn-block {
   display: flex;
   padding-left: 0;
   list-style: none;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 
 .page-link {
@@ -5786,6 +5796,9 @@ a.badge-darker.focus {
     padding: 4rem 2rem;
   }
 }
+::-webkit-scrollbar {
+  display: none;
+  }
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -5795,10 +5808,10 @@ a.badge-darker.focus {
 
 .alert {
   position: relative;
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 0.9rem;
   margin-bottom: 1rem;
   border: 0.0625rem solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 
 .alert-heading {
@@ -7454,6 +7467,25 @@ button.bg-darker:focus {
 .border {
   border: 0.0625rem solid #e9ecef !important;
 }
+.border-azure {
+  border-top: 0rem;
+  border-left: 0rem;
+  border-right: 0rem;
+  border-bottom: 0.0625rem solid #0165b6 !important;
+}
+.border-azure:focus {
+  border-top: 0rem;
+  border-left: 0rem;
+  border-right: 0rem;
+  color:#000000 ;
+  border-bottom: 0.2rem solid #0165b6 !important;
+}
+.border-azure:hover {
+  border-top: 0rem;
+  border-left: 0rem;
+  border-right: 0rem;
+  border-bottom: 0.2rem solid #0165b6 !important;
+}
 
 .border-top {
   border-top: 0.0625rem solid #e9ecef !important;
@@ -8712,6 +8744,12 @@ button.bg-darker:focus {
 
 .w-25 {
   width: 25% !important;
+}
+.w-15 {
+  width: 20% !important;
+}
+.w-90 {
+  width: 90% !important;
 }
 
 .w-50 {
@@ -23067,6 +23105,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   .ct-example .pos-f-t {
     margin: -1.5rem;
   }
+  
 }
 
 .ct-example .custom-file-input:lang(es)~.custom-file-label::after {
