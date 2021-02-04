@@ -1,6 +1,6 @@
 <div class="table-responsive">
 <table class="table table-hover mt-3 table-white ">
-    <thead>
+    <thead style="background-color: #fcfcfc">
       <tr class="text-center">
         <th scope="col">CASHIER</th>
         <th scope="col">BARCODE</th>
