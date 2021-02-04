@@ -18,13 +18,11 @@
 <h2 style="align-text:center">Debt List</h2>
 <img width="720" src="https://firebasestorage.googleapis.com/v0/b/kawan-2021.appspot.com/o/debt_list.png?alt=media&token=9734e3a1-4c68-4390-9ea1-2a8ef6f1f214">
 <h2 style="align-text:center">Not Left</h2>
-<img width="720" src="https://firebasestorage.googleapis.com/v0/b/kawan-2021.appspot.com/o/not_left.png?alt=media&token=1d547d20-40e7-4b3e-8515-42c76fb50891
-">
+<img width="720" src="https://firebasestorage.googleapis.com/v0/b/kawan-2021.appspot.com/o/not_left.png?alt=media&token=1d547d20-40e7-4b3e-8515-42c76fb50891">
 <h2 style="align-text:center">Supplier</h2>
 <img width="720" src="https://firebasestorage.googleapis.com/v0/b/kawan-2021.appspot.com/o/supplier.png?alt=media&token=23a5c949-df7e-4d79-8c62-dcff3fd9d896">
 <h2 style="align-text:center">Cashier</h2>
-<img width="720" src="https://firebasestorage.googleapis.com/v0/b/kawan-2021.appspot.com/o/cashier.png?alt=media&token=d0558eed-e624-45b0-b6c1-5b64cbf9c764
-">
+<img width="720" src="https://firebasestorage.googleapis.com/v0/b/kawan-2021.appspot.com/o/cashier.png?alt=media&token=d0558eed-e624-45b0-b6c1-5b64cbf9c764">
 </div>
 <center>
 <h1> All File And Views May be Change Soon..</h1>
