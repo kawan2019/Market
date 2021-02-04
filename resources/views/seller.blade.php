@@ -1,9 +1,9 @@
 @extends('layout.nav')
 @section('content')
 
-<div class="row justify-content-lg-start m-3">
+<div class="row justify-content-lg-start mt-2 ml-1">
 @foreach ($lists as $key => $value)
-    <span class="btn btn-white m-2 rounded-0"> {{$key}} : {{$value}}</span>
+    <span class="btn btn-sm btn-white m-1 rounded-0"> {{$key}} : {{$value}}</span>
 @endforeach
 
 </div>

@@ -11,6 +11,7 @@
     <body class=" bg-azure">
         @auth
         <div class="d-flex" id="wrapper">
+            
             <!-- Sidebar -->
             <div class="bg-white text-center" id="sidebar-wrapper">
                 <div class="sidebar-heading"><img src="{{asset('assets/img/drug.svg')}}" width="50">
@@ -19,7 +20,7 @@
                 <div class="list-group list-group-flush siderbar1">
                   @foreach($sidebar as $item)
                   
-                  <a href="{{Str::lower(str_replace(' ','',$item->name))}}" class="btn-azure-secondaryf active btn rounded-0 mt-2 w-100">
+                  <a href="{{Str::lower(str_replace(' ','',$item->name))}}" class="active btn rounded-0 mt-2 w-100">
                     <i style="position: absolute; left:0; " class="{{$item->icon}} ml-5"></i>
                     {{ __($item->name)}}</a>
                   @endforeach
@@ -33,8 +34,14 @@
                 </div>
             </div>
             <div id="page-content-wrapper">
-                <nav class="navbar navbar-expand-xl navbar-light bg-white p-2 right-0 ">
-                    <button class="btn btn-azure-secondary rounded-0 btn-sm ml-2" id="menu-toggle"><<</button>
+                <nav class="navbar navbar-expand-xl navbar-light bg-white p-2 right-0 d-flex ">
+                    <div class="d-inline">
+                    <button class="btn btn-azure-secondary rounded-0 btn-sm" id="menu-toggle"><<</button>
+                </div>
+                    <div class=" w-90 text-center d-inline ">
+                        <small class="ml--4"><b> {{Str::upper(Request::segment(1))}}</b></small>
+                    </div>
+                    
                 </nav>
                 <div class="container-fluid">
                     @endauth
